@@ -2,9 +2,6 @@ import Head from 'next/head'
 
 import CastFeeds from '../components/CastFeeds'
 import Container from '../components/Container'
-import Footer from '../components/Footer'
-import Logo from '../components/Logo'
-import SearchFilters from '../components/SearchFilters'
 import SearchInput from '../components/SearchInput'
 import { useState } from 'react'
 
