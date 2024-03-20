@@ -3,8 +3,6 @@ import { useEffect } from 'react'
 import { useStorage } from '../hooks/useLocalStorage'
 
 import Container from '../components/Container'
-import Footer from '../components/Footer'
-import Logo from '../components/Logo'
 import SearchInput from '../components/SearchInput'
 
 export default function Home() {
@@ -54,7 +52,7 @@ export default function Home() {
           {/* <Logo size="lg" align="center" className="mb-5" /> */}
           <SearchInput size="lg" />
         </Container>
-        <Footer />
+        {/* <Footer /> */}
       </div>
 
       <style jsx>{`
